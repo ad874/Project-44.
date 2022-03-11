@@ -47,10 +47,7 @@ class Form{
            
               database.ref("/").set({
                   //set the intial value for carsAtEnd,playerCount,gameState,players
-                 playerAtEnd:0,
-                 playerCount:0,
-                gameState:0,
-                player:{}
+                 
                 });
                 //reload() the window
                 window.location.reload();
